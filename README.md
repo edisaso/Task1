@@ -67,6 +67,7 @@ public class VehicleRentalSystem {
         invoice1.printInvoice();
     }
 }
+```
 
 This will output an invoice with the rental and insurance costs for the specified rental period.
 
@@ -77,8 +78,10 @@ You can also create instances of Motorcycle and CargoVan similarly:
 Vehicle motorcycle = new Motorcycle("Triumph Tiger Sport 660", 10000.00, 20);
 Invoice invoice2 = new Invoice("Mary Johnson", motorcycle, LocalDate.of(2024, 6, 3), LocalDate.of(2024, 6, 13), LocalDate.of(2024, 6, 13));
 invoice2.printInvoice();
+```
 
 ```java
 Vehicle motorcycle = new Motorcycle("Triumph Tiger Sport 660", 10000.00, 20);
 Invoice invoice2 = new Invoice("Mary Johnson", motorcycle, LocalDate.of(2024, 6, 3), LocalDate.of(2024, 6, 13), LocalDate.of(2024, 6, 13));
 invoice2.printInvoice();
+```
